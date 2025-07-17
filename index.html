@@ -2,248 +2,239 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="index.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Sirivella Vinod</title>
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="assets/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Protfolio Website</title>
 </head>
 
 <body>
-
     <!-- Header Section -->
-
-    <header class="header">
-        <a href="#home" class="logo">Prakash
-            <span>Kuruba</span>
-        </a>
-
-        <i class='bx bx-menu' id="menu-icon"></i>
-
-        <nav class="navbar">
-            <a href="#home" class="">Home</a>
-            <a href="#about" class="">About me</a>
-            <a href="#education" class="">Education</a>ṭ
-            <a href="#services" class="">Services</a>
-            <a href="#portfolio" class="">portfolio</a>
-            <a href="#contact" class="">Contact</a>
+    <header class="header" role="banner">
+        <a href="#home" class="logo" aria-label="Go to home section">Sirivella <span>Vinod</span></a>
+        <i class='bx bx-menu' id="menu-icon" aria-label="Open navigation menu"></i>
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#services">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-
     <!-- Home Section -->
-
-    <section class="home" id="home">
+    <section class="home" id="home" aria-label="Home">
         <div class="home-content">
-            <h1>Hi, It's <span>Prakash</span></h1>
-            <h3 class="text-animation">I'm a <span></span></h3>
-            <p>I believe that web development is indeed an important and growing field with a lot of potential for the future.</p>
-
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/prakashkuruba"><i class='bx bxl-linkedin-square'></i></a>
-                <a href="https://github.com/prakaskuruba"><i class='bx bxl-github'></i></a>
-                <a href="https://www.instagram.com/prakash_kuruba1"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-facebook-square'></i></a>
+            <h1>Hi, I'm <span>Sirivella Vinod</span></h1>
+            <h2 class="text-animation">DevOps & Java Enthusiast</h2>
+            <p>Email: <a href="mailto:vinodsirivella9@gmail.com">vinodsirivella9@gmail.com</a> | Mobile: <a
+                    href="tel:7995492775">7995492775</a></p>
+            <p>Enthusiastic DevOps engineer with foundational knowledge in CI/CD, cloud computing, automation, and
+                containerization. Eager to apply technical skills in a collaborative environment to streamline software
+                delivery and infrastructure management.</p>
+            <div class="social-icons" aria-label="Social links">
+                <a href="https://www.linkedin.com/in/sirivella-vinod-665b26354" aria-label="LinkedIn"><i
+                        class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/Vinod0043" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="#" aria-label="Instagram"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                <a href="#" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
             </div>
-
             <div class="btn-group">
-                <a href="https://prakash-resume.tiiny.site" class="btn">Download CV</a>
+                <a href="#" class="btn">Download CV</a>
                 <a href="#contact" class="btn">Contact</a>
             </div>
         </div>
         <div class="home-img">
-            <img src="https://res.cloudinary.com/dhqsctb9q/image/upload/v1656672889/DSC_0133_szjld5.jpg" alt="Profile">
+            <img src="assets/DSC-2_0071.JPG" alt="Sirivella Vinod Profile Photo"
+                style="border-radius: 50%; width: 220px; height: 220px; object-fit: cover; box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
         </div>
     </section>
-
-    <!-- about Section -->
-
-    <section class="about" id="about">
+    <!-- About Section -->
+    <section class="about" id="about" aria-label="About Me">
         <div class="about-img">
-            <img src="https://res.cloudinary.com/dhqsctb9q/image/upload/v1656672889/DSC_0133_szjld5.jpg" alt="About Image">
+            <img src="assets/vinod.jpg" alt="Sirivella Vinod About Photo"
+                style="border-radius: 50%; width: 220px; height: 220px; object-fit: cover; box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
         </div>
-
         <div class="about-content">
-            <h2 class="heading">
-                About <span>Me</span>
-            </h2>
-            <h3>I'm a <span>Web Developer</span></h3>
-            <p>Frontend development is a key aspect of building modern websites and web applications. Frontend developers are responsible for creating the user-facing parts of a website or application, including the layout, design, and interactivity. They work with HTML, CSS, and JavaScript to build the visual and interactive components of a website or application.</p>
-
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>DevOps & Java Enthusiast</h3>
+            <p>I'm Sirivella Vinod, passionate about DevOps, automation, and backend development. I have hands-on
+                experience with Git, GitHub, CI/CD pipelines (Jenkins, GitHub Actions), Docker, basic Kubernetes, and
+                cloud platforms (AWS EC2, S3, IAM). I am also proficient in Core Java, OOP, exception handling, Java
+                Collections, JDBC, and multithreading. I enjoy working in Linux environments and automating tasks with
+                Bash and Python scripts.</p>
+            <ul>
+                <li><b>Version Control:</b> Git, GitHub/GitLab</li>
+                <li><b>CI/CD:</b> Jenkins, GitHub Actions</li>
+                <li><b>Containerization:</b> Docker, Kubernetes (Basics)</li>
+                <li><b>Cloud:</b> AWS (EC2, S3, IAM)</li>
+                <li><b>IaC:</b> Terraform, Ansible (Basics)</li>
+                <li><b>Programming:</b> Java, HTML5, CSS, JavaScript</li>
+                <li><b>Scripting:</b> Bash, Python (Basic)</li>
+            </ul>
             <a href="#" class="btn">Read More</a>
         </div>
-
     </section>
-
     <!-- Education Section -->
-
-    <section id="education" class="education">
+    <section id="education" class="education" aria-label="Education">
         <h2 class="heading">Education</h2>
         <div class="timeline-items">
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2023</div>
+                <div class="timeline-date">2025</div>
                 <div class="timeline-content">
-                    <h3>NxtWave’s CCBP 4.0 Intensive </h3>
-                    <p>At NxtWave’s CCBP 4.0 Intensive, I learned full-stack development specializing in 4.0 technologies.
-                        I have learned skills in HTML, CSS, Javascript, Python, and SQL with the help of the CCBP platform . by learning skills through hands-on experience.
-                        I developed many Projects. like a Tourism website, responsive website, and Dynamic website.
-                        I am in love with the coding challenges and hands-on projects.
-                        I am getting ready to take on new challenges in the tech world. </p>
+                    <h3>Master of Computer Application (MCA)</h3>
+                    <p>SPIRITS College, Kadapa<br>CGPA: 8.59/10.0</p>
                 </div>
             </div>
-
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2022</div>
                 <div class="timeline-content">
-                    <h3>Master of Computer Applications (MCA)</h3>
-                    <p>Completed post-graduation in Master of Computer Application from Satavahana University in 2022 with a CGPA of 6.43</p>
+                    <h3>Bachelor of Computer Science (B.Sc.)</h3>
+                    <p>Loyola Degree College, Pulivendula<br>CGPA: 7.36/10.0</p>
                 </div>
             </div>
-
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2020</div>
+                <div class="timeline-date">2019</div>
                 <div class="timeline-content">
-                    <h3>Bachelor's degree</h3>
-                    <p>Obtained a Bachelor's degree in Computer Science from a government degree college in Anantapur affiliated with Sri Krishnadevaraya University in 2020, achieving a CGPA of 7.5</p>
+                    <h3>XII Standard</h3>
+                    <p>Percentage: 7.3%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2017</div>
+                <div class="timeline-content">
+                    <h3>X Standard</h3>
+                    <p>Percentage: 8.36%</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Services Section -->
-
-    <section id="services" class="services">
-        <h2 class="heading">Skills</h2>
+    <!-- Skills Section -->
+    <section id="services" class="services" aria-label="Technical Skills">
+        <h2 class="heading">Technical Skills</h2>
         <div class="skills-container">
-
-            <div class="skills-box">
-                <img src="https://cdn-icons-png.flaticon.com/128/174/174854.png" alt="HTML Icon" class="icons">
-                <h3>HTML</h3>
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                    alt="Java" class="icons">
+                <h3>Java</h3>
             </div>
-            <div class="skills-box">
-                <img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="" class="icons">
-                <h3>CSS</h3>
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    alt="HTML5" class="icons">
+                <h3>HTML5</h3>
             </div>
-            <div class="skills-box">
-                <img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" alt="JavaScript Icon" class="icons">
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                    alt="CSS3" class="icons">
+                <h3>CSS3</h3>
+            </div>
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="JavaScript" class="icons">
                 <h3>JavaScript</h3>
             </div>
-            <div class="skills-box">
-                <img src="https://cdn-icons-png.flaticon.com/128/1126/1126012.png" alt="" class="icons">
-                <h3>React</h3>
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+                    alt="AWS" class="icons">
+                <h3>AWS</h3>
             </div>
-
-            <div class="skills-box">
-                <img src="https://cdn-icons-png.flaticon.com/128/5968/5968846.png" alt="" class="icons">
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+                    alt="Jenkins" class="icons">
+                <h3>Jenkins</h3>
+            </div>
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    alt="GitHub" class="icons">
                 <h3>GitHub</h3>
             </div>
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                    alt="Docker" class="icons">
+                <h3>Docker</h3>
+            </div>
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+                    alt="Kubernetes" class="icons">
+                <h3>Kubernetes (Basics)</h3>
+            </div>
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+                    alt="Terraform" class="icons">
+                <h3>Terraform (Basics)</h3>
+            </div>
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"
+                    alt="Ansible" class="icons">
+                <h3>Ansible (Basics)</h3>
+            </div>
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                    alt="Git" class="icons">
+                <h3>Git</h3>
+            </div>
+            <div class="skills-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
+                    alt="Bash" class="icons">
+                <h3>Bash</h3>
+            </div>
         </div>
     </section>
-
-    <!-- portfolio Section -->
-
-    <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Projects</span></h2>
-
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio" aria-label="Academic Project">
+        <h2 class="heading">Academic <span>Project</span></h2>
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="https://res.cloudinary.com/dhqsctb9q/image/upload/v1713034413/Screenshot_49_kecgr1.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>FOOD MUCH WEBSITE</h4>
-                    <ul class="Portfoilo-description">
-                        <li>Developed a responsive website for a Food Store where users can see a list of food items, detailed
-                            information about a food item offers</li>
-                        <li> Designed page using the following HTML structure elements like li, header, article, footer elements, and
-                            different bootstrap components to show different sections in the website and different bootstrap classes for
-                            responsiveness through a mobile-first approach.
-                        </li>
-                        <li>Implemented product youtube videos by using bootstrap embed and model components</li>
-                    </ul>
-                    <a href="#"><i class='bx bx-right-top-arrow-circle'></i></a>
+                <div style="display: flex; justify-content: center; margin-bottom: 1.5rem;">
+                    <img src="assets/multi-perspective-fraud-detection.jpg" alt="Multi-Perspective Fraud Detection Project Diagram"
+                        style="border-radius: 12px; width: 100%; max-width: 600px; height: auto; object-fit: cover; box-shadow: 0 4px 16px rgba(0,0,0,0.15);">
                 </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="https://res.cloudinary.com/dhqsctb9q/image/upload/v1713036945/Screenshot_50_wqzfip.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Wikipedia Search Application</h4>
+                    <h3>Multi-Perspective Fraud Detection Method for Multi-Participant E-commerce Transaction</h3>
                     <ul class="Portfoilo-description">
-                        <li>Developed custom wikipedia search application where user can search and view curated results and can see
-                            detailed explanation in wikipedia by clicking on the specific result.
-                        </li>
-                        <li>Displayed list of search results with HTML list elements with hyperlink as url, styled list using CSS,
-                            Bootstrap and implemented responsiveness using Flex properties and CSS Box mode</li>
-                        <li> Fetched search results from server asynchronously using fetch GET HTTP API call. When a user clicks
-                            on a particular result, opens the website in a new tab by using the target attribute of the anchor tag in
-                            HTML.
-                        </li>
+                        <li>Developed a hybrid fraud detection model using Decision Trees, SVM, and Gradient Boosting,
+                            achieving 30% higher accuracy than traditional methods.</li>
+                        <li>Engineered a multi-perspective analysis (control flow, user behavior, time patterns) with Petri
+                            nets to identify complex fraud scenarios.</li>
+                        <li>Built a Python/Django web app with Scikit-learn and TensorFlow for real-time transaction
+                            monitoring and fraud alerts.</li>
+                        <li>Designed a normalized SQL database (3NF) and visualized results using Matplotlib/Seaborn for
+                            actionable insights.</li>
+                        <li>Proposed LSTM integration for future temporal pattern detection to enhance predictive
+                            capabilities.</li>
                     </ul>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="https://res.cloudinary.com/dhqsctb9q/image/upload/v1714140118/Screenshot_115_emizhd.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Todos Application</h4>
-                    <ul class="Portfoilo-description">
-                        <li>Developed persistent to-do application with CRUD operations to track a list of tasks. Displayed list of todos with
-                            HTML list elements, styled todo list using CSS, Bootstrap.
-                        </li>
-                        <li> Implemented todo crud operations by using JavaScript event listeners and updated UI dynamically by using
-                            JavaScript DOM operations.</li>
-                        <li>Arrays, Objects, and their methods during todo list CRUD Operations, Persistedtodo list state.
-                        </li>
-                    </ul>
-                    <a href="#"><i class='bx bx-right-top-arrow-circle'></i></a>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Contact Section -->
-
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" aria-label="Contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="">
+        <form action="#" method="post" aria-label="Contact form">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Full Name" value="Sirivella Vinod" aria-label="Full Name">
+                    <input type="email" placeholder="Email" value="vinodsirivella9@gmail.com" aria-label="Email">
                 </div>
-
                 <div class="input-box">
-                    <input type="number" placeholder="Phone Number">
-                    <input type="text" placeholder="Subject">
+                    <input type="number" placeholder="Phone Number" value="7995492775" aria-label="Phone Number">
+                    <input type="text" placeholder="Subject" aria-label="Subject">
                 </div>
             </div>
-
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <textarea cols="30" rows="10" placeholder="Your Message" aria-label="Your Message"></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </div>
         </form>
     </section>
-
     <!-- Footer Section -->
-
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
         <div class="social">
-            <a href="https://www.linkedin.com/in/prakashkuruba"><i class='bx bxl-linkedin-square'></i></a>
-            <a href="https://github.com/prakaskuruba"><i class='bx bxl-github'></i></a>
-            <a href="https://www.instagram.com/prakash_kuruba1"><i class='bx bxl-instagram-alt'></i></a>
-            <a href="#"><i class='bx bxl-twitter'></i></a>
-            <a href="#"><i class='bx bxl-facebook-square'></i></a>
+            <a href="https://www.linkedin.com/in/sirivella-vinod-665b26354" aria-label="LinkedIn"><i
+                    class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/Vinod0043" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+            <a href="#" aria-label="Instagram"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+            <a href="#" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
         </div>
-
         <p class="copyright">
-            © Prakash Kuruba - All Rights Reserved
+            © Sirivella Vinod - All Rights Reserved
         </p>
     </footer>
-
     <script src="assets/script.js"></script>
 </body>
 
